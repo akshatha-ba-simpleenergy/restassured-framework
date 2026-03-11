@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+
+    <test name="User Order Flow Tests">
+
+        <classes>
+
+            <class name="tests.LoginTest"/>
+            <class name="tests.VerifyOtpTest"/>
+            <class name="tests.updateUserDetailsTest"/>
+            <class name="tests.ListAllVehicleVariantsTest"/>
+            <class name="tests.ListAccessoriesTest"/>
+            <class name="tests.getNearestDealerTest"/>
+            <class name="tests.createOrderTest"/>
+            <class name="tests.startPaymentTest"/>
+            <class name="tests.test_signatureTest"/>
+            <class name="tests.PaymentSuccessWebhookTest"/>
+            <class name="tests.verifyPaymentTest"/>
+            
+
+        </classes>
+
+    </test>
+
+</suite>
