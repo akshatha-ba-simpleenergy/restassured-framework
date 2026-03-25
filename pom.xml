@@ -91,7 +91,30 @@
     <scope>test</scope>
 </dependency>
 
+ <!-- PDF -->
+  <dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>html2pdf</artifactId>
+    <version>4.0.5</version>
+ </dependency>
+
+
+    <!-- Charts -->
+    <dependency>
+        <groupId>org.jfree</groupId>
+        <artifactId>jfreechart</artifactId>
+        <version>1.5.3</version>
+    </dependency>
+
     
+    
+    <dependency>
+    <groupId>com.sun.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.6.2</version>
+</dependency>
+
+
   </dependencies>
 
   <build>
